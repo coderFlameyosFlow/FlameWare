@@ -14,7 +14,7 @@ That is right, you will find NO recursion whatsoever, FlameWare is recursion-fre
 And we really want to.
 
 ### Terrible readability internally, Right?
-Actually, that is certainly wrong, and it's quite the opposite, FlameWare tries to take advantage of Java and otherto not only improve performance,
+Actually, that is certainly wrong, and it's quite the opposite, FlameWare tries to take advantage of Java and other stuff to not only improve performance,
 but to even improve readability in some cases, we use constant-lookups instead of linear-lookups using ConcurrentHashMaps!
 
 FlameWare is very based on caches and computing and lambdas, making it better maintainable for even better code in the future!
@@ -24,7 +24,7 @@ FlameWare tries to achieve thread safety without synchronization, we do not use 
 We use ConcurrentMaps to try achieve the best performance and best thread-safety without making the code look like it was made by a premature optimizer.
 
 ### Constant searching instead of Linear searching.
-FlameWare is cache-based AND hash-based, including the execution of parsing!
+FlameWare is cache-based AND hash-based, especially for argument parsing and command registration
 
 FlameWare uses a lot of thread-safe operations, and FlameWare utilizes the smartest
 features to improve functionality, extensibility and performance.
@@ -96,11 +96,16 @@ There is quick support as long as you ping me! *(Unless there is an emergency)*
 *Okay, this has to be big with all these features.. right?*
 
 As of now, here are the size of the modules (common included in all of them):
-- Spigot: 41kb
+- Spigot: 41kb (without ASM)
 
 FlameWare is light despite its features!
 ### How is it really done?
-First of all, there are hardly to no implementations, everything is compiled for compilation use, and after that, the only implementation is the actual project and a small, 5 class ASM library
+First of all, there are hardly to no implementations, everything is either compiled or a small implementation, here are the used libraries:
+- ASM - implementation (5 classes in total)
+- Lombok - compiled only
+- Jetbrains annotations - compiled only
+
+and then of course, classics, like spigot, etc.
 
 There are also a low amount of classes to be able to make the jar size smaller.
 
