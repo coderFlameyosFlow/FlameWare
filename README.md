@@ -98,6 +98,15 @@ and customizability, heck, we want you to be able to customize everything!
 From command execution, to even parsing execution, you can choose for them to be normal/sync, or async/parallel for all commands,
 If you don't want that, there is also an annotation called @Async which allows you to execute some commands asynchronously!
 
+## Jar Size
+*Okay, this has to be big with all these features.. right?*
+
+As of now, here are the size of the modules (common included in all of them):
+- Spigot: 41kb
+
+FlameWare is light despite its features, due to the low amount of classes!
+
 # Installation
 Fine, you convinced me, how do I try this?
-`REPO SOON!`
+
+#### REPO SOON!
