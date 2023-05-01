@@ -85,8 +85,7 @@ FlameWare is more of the "I will let you customize and extend features" than "I 
 We plan to have you find a lot of Extensibility in FlameWare,
 and customizability, heck, we want you to be able to customize everything!
 
-From command execution, to even parsing execution, you can choose for them to be normal/sync, or async/parallel for all commands,
-If you don't want that, there is also an annotation called @Async which allows you to execute some commands asynchronously!
+You will soon customize messages, 
 
 ## Support
 Yes, I am literally active every hour on discord and I am willing to help anyone.
@@ -101,7 +100,7 @@ As of now, here are the size of the modules (common included in all of them):
 
 FlameWare is light despite its features!
 ### How is it really done?
-First of all, there are hardly to no implementations, everything is compiled for compilation use, and after that, the only implementation is the actual project.
+First of all, there are hardly to no implementations, everything is compiled for compilation use, and after that, the only implementation is the actual project and a small, 5 class ASM library
 
 There are also a low amount of classes to be able to make the jar size smaller.
 
