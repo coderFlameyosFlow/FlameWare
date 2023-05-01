@@ -14,28 +14,20 @@ That is right, you will find NO recursion whatsoever, FlameWare is recursion-fre
 And we really want to.
 
 ### Terrible readability internally, Right?
-Actually, that is certainly wrong, and it's quite the opposite, FlameWare tries to take advantage of Java and other small Libraries to not only improve performance,
+Actually, that is certainly wrong, and it's quite the opposite, FlameWare tries to take advantage of Java and otherto not only improve performance,
 but to even improve readability in some cases, we use constant-lookups instead of linear-lookups using ConcurrentHashMaps!
 
 FlameWare is very based on caches and computing and lambdas, making it better maintainable for even better code in the future!
 
 ### Complete thread-safety.
 FlameWare tries to achieve thread safety without synchronization, we do not use normal HashMaps or synchronized maps/hashtables,
-We use ConcurrentMaps and even [Caffeine](https://github.com/ben-manes/caffeine) to try achieve the best performance and best thread-safety without making the code look like it was made by a premature optimizer.
-
-### Einstein-level code
-Yes, it is smart, FlameWare uses [Caffeine](https://github.com/ben-manes/caffeine) for cooldowns and much more stuff to assure your memory/cpu usage doesn't skyrocket or having terrible performance, for example:
-
-FlameWare uses with a casual for loop, to loop through all parameters at once while
-even getting other variables using that for loop, so much more would be written and done with a for each.
-
-And for now, FlameWare remains as one of the smartest command frameworks ever started.
+We use ConcurrentMaps to try achieve the best performance and best thread-safety without making the code look like it was made by a premature optimizer.
 
 ### Constant searching instead of Linear searching.
-FlameWare is cache-based, caffeine-based AND hash-based, including the execution of parsing!
+FlameWare is cache-based AND hash-based, including the execution of parsing!
 
-FlameWare uses a lot of thread-safe operations, and FlameWare utilizes the smart
-features to improve functionality and performance.
+FlameWare uses a lot of thread-safe operations, and FlameWare utilizes the smartest
+features to improve functionality, extensibility and performance.
 
 ## Development time and Readability
 FlameWare aims to drastically decrease development time,
@@ -73,7 +65,7 @@ Well, this is what you do in FlameWare:
 public class MyCommand {
     @Command
     @MoreAnnotationsFromFlameWareIfNeeded
-    public void coolCommand(Player player, @Arg(id = "number") int number, @Arg(id = "message") @Join String hey) {
+    public void coolCommand(Player player, int number, @Default OfflinePlayer target, @Default @Join String hey) {
         ...
     }
 
@@ -87,8 +79,6 @@ public class MyCommand {
 
 18 lines to 14 lines, and thats just a sample, imagine real code, man.
 
-Also, yes, for each parameter you do need @Arg, but the reason for that is to add boilerplate, to make less boilerplate in modern java! (this is still getting checked)
-
 ## Extensibility and Customizability
 FlameWare is more of the "I will let you customize and extend features" than "I will have complete features" kind of framework.
 
@@ -98,13 +88,22 @@ and customizability, heck, we want you to be able to customize everything!
 From command execution, to even parsing execution, you can choose for them to be normal/sync, or async/parallel for all commands,
 If you don't want that, there is also an annotation called @Async which allows you to execute some commands asynchronously!
 
+## Support
+Yes, I am literally active every hour on discord and I am willing to help anyone.
+
+There is quick support as long as you ping me! *(Unless there is an emergency)*
+
 ## Jar Size
 *Okay, this has to be big with all these features.. right?*
 
 As of now, here are the size of the modules (common included in all of them):
 - Spigot: 41kb
 
-FlameWare is light despite its features, due to the low amount of classes!
+FlameWare is light despite its features!
+### How is it really done?
+First of all, there are hardly to no implementations, everything is compiled for compilation use, and after that, the only implementation is the actual project.
+
+There are also a low amount of classes to be able to make the jar size smaller.
 
 # Installation
 Fine, you convinced me, how do I try this?
