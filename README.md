@@ -8,7 +8,7 @@ Look, don't assume, other command frameworks are obviously great and try their *
 Here is what makes you choose **FlameWare** over **others**:
 
 ## Performance
-Here is what makes FlameWare top in performance:
+Here is why **FlameWare** tops in performance:
 ### No recursion, Absolutely none.
 That is right, you will find **no recursion whatsoever**, FlameWare is recursion-free,
 And we really want to.
@@ -18,7 +18,7 @@ Actually, that is certainly wrong, and it's quite the *opposite*
 
 *but mister FlameyosFlow, how can performance make readability better? that's nearly impossible*
 
-Your answer: Well I defeated nearly impossible!
+Your answer: Well I defeated **nearly impossible**!
 
 FlameWare tries to take advantage of Java and other stuff to not only improve performance,
 but to even improve readability in some cases!
@@ -38,6 +38,8 @@ FlameWare uses a lot of thread-safe operations, and FlameWare utilizes the smart
 features to improve functionality, extensibility and performance.
 
 ## Development time and Readability
+Here is why **FlameWare** tops in Readability and Development Time:
+
 FlameWare aims to drastically decrease development time,
 When it comes to development time, FlameWare does more work internally so you do less work externally!
 
@@ -89,12 +91,16 @@ public class MyCommand {
 18 lines to 14 lines, and thats just a sample, imagine real code, man.
 
 ## Extensibility and Customizability
+**Lamp *does* top FlameWare in extensibility** as of now since it is a **much earlier project**, but here is why **FlameWare** is so good in Extensibility and Customizability:
+
 FlameWare is more of the "I will let you customize and extend features" than "I will have complete features" kind of framework, which is also why it is so small
 
 We plan to have you find a lot of Extensibility in FlameWare, even in the first versions!
 
 ## Support
-Yes, I am literally active every hour on discord and I am willing to help anyone.
+Here is why **FlameWare** tops in support:
+
+Yes, I am active every hour on discord and I am willing to help anyone.
 
 There is quick support as long as you ping me! *(unless there is an emergency)*
 
@@ -102,6 +108,8 @@ There is quick support as long as you ping me! *(unless there is an emergency)*
 Speaking of small, here is the Size.
 
 *Okay, this has to be big with all these features.. right?*
+
+Here is why **FlameWare** tops in File size:
 
 As of now, here are the size of the modules with ***no minimization***: (these are the last checked size, could be higher or even lower)
 - Spigot & Common Combined: 39.1kb
@@ -114,7 +122,7 @@ First of all, there are no implementations, everything is compiled only, here ar
 
 Other reasons may be:
 - Because of the incredibly low amount of classes, interfaces, enums and annotations combined (22 as of now for Common + Spigot)
-- Removal of the meta data using Shadow Jar
+- Because FlameWare removes all of the meta data using ShadowJar that usually comes normally
 - FlameWare attracts the eye of people looking for extensibility, not complete features, leaving more space for your projects!
 - and more!
 
