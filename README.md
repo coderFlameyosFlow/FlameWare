@@ -1,7 +1,5 @@
 # FlameWare - REWRITE IN PROGRESS
-Performant, high code quality and extensive command framework,
-
-inspired by High Quality Command Frameworks like [Lamp](https://www.spigotmc.org/threads/lamp-a-highly-flexible-extremely-powerful-and-customizable-commands-framework.544055/) and [mCommands](https://www.spigotmc.org/threads/mcommands.600957/) to ***try*** fix their (current) issues
+Performant, high code quality and extensive command framework, Inspired by High Quality Command Frameworks like [Lamp](https://www.spigotmc.org/threads/lamp-a-highly-flexible-extremely-powerful-and-customizable-commands-framework.544055/) and [mCommands](https://www.spigotmc.org/threads/mcommands.600957/) to ***try*** fix their (current) issues
 
 *Okay, cool, I have heard this a million times, you probably use recursion, have terrible code quality and have a massive jar size*
 
