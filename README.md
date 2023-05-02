@@ -119,6 +119,7 @@ FlameWare is light despite its features!
 First of all, there are no implementations, everything is compiled only, here are the used libraries:
 - Lombok - compiled only
 - Jetbrains annotations - compiled only
+- Classics such as Spigot - compiled only
 
 Other reasons may be:
 - Because of the incredibly low amount of classes, interfaces, enums and annotations combined (22 as of now for Common + Spigot)
