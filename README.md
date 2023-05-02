@@ -122,8 +122,9 @@ First of all, there are no implementations, everything is compiled only, here ar
 
 Other reasons may be:
 - Because of the incredibly low amount of classes, interfaces, enums and annotations combined (22 as of now for Common + Spigot)
-- Because FlameWare removes all of the meta data using ShadowJar that usually comes normally
-- FlameWare attracts the eye of people looking for extensibility, not complete features, leaving more space for your projects!
+- Because FlameWare removes all of the meta data using ShadowJar that usually comes normally in a JAR file
+- Because FlameWare uses as much Java as possible, since the JDK has all the java classes, meaning, using java classes will be better for file size
+- Because FlameWare attracts the eye of people looking for extensibility, not complete features, leaving more space for your projects!
 - and more!
 
 # Installation
