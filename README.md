@@ -1,11 +1,11 @@
 # FlameWare - REWRITE IN PROGRESS
 Performant, high code quality and extensive command framework, Inspired by High Quality Command Frameworks like [Lamp](https://www.spigotmc.org/threads/lamp-a-highly-flexible-extremely-powerful-and-customizable-commands-framework.544055/) and [mCommands](https://www.spigotmc.org/threads/mcommands.600957/) to ***try*** fix their (current) issues
 
-*Okay, cool, I have heard this a million times, you probably use recursion, have terrible code quality and have a massive jar size*
+*Okay, cool, I have heard this a million times, you probably use recursion, have terrible performance, readability, understandability and/or code quality, slow support, non-extensive and/or have a massive jar size*
 
 Look, don't assume, other command frameworks are obviously great and try their *best*, although:
 
-Here is what makes you choose FlameWare over others:
+Here is what makes you choose **FlameWare** over **others**:
 
 ## Performance
 Here is what makes FlameWare top in performance:
@@ -44,6 +44,7 @@ When it comes to development time, FlameWare does more work internally so you do
 Here is what some command frameworks make you do:
 ```java
 @Command(aliases = { ... })
+// optionals
 @Usage("...")
 @CommandPermission("...")
 @Description("...")
@@ -59,7 +60,7 @@ public class MyCommand {
     @Usage("...")
     @CommandPermission("...")
     @Description("...")
-    public void anotherCoolCommand(Player player, int number, @Join String hey) {
+    public void anotherCoolCommand(Player player, int number, @Optional @Join String hey) {
         ...
     }
 }
@@ -77,7 +78,7 @@ public class MyCommand {
         ...
     }
 
-    @Subcommand(name = "...", desc = "...", perm = "...", aliases = "...")
+    @Subcommand(name = "...", /* optionals */ desc = "...", perm = "...", aliases = "...")
     @MoreAnnotationsFromFlameWareIfNeeded
     public void coolDudeCommand(Player player, String[] args) {
         ...
