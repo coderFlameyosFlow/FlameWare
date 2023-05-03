@@ -15,6 +15,7 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.UUID;
 
+@SuppressWarnings("unchecked")
 public final class SpigotSender implements SpigotCommandSender {
     private final CommandSender sender;
     private final SpigotCommandManager manager;
@@ -68,8 +69,8 @@ public final class SpigotSender implements SpigotCommandSender {
     }
 
     @Override
-    public void reply(ComponentLike component) {
-        this.audience().sendMessage(component);
+    public void reply(Object component) {
+        this.audience().sendMessage((ComponentLike) component);
     }
 
     @Override
