@@ -12,7 +12,7 @@ import org.jetbrains.annotations.Nullable;
 public interface SpigotCommandSender extends InterfaceCommandSender {
     Audience audience();
 
-    void reply(ComponentLike component);
+    void reply(Object component);
 
     @Nullable
     Player getPlayer();
