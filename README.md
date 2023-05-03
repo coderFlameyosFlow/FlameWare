@@ -1,4 +1,4 @@
-# FlameWare - REWRITE IN PROGRESS
+# FlameWare
 Performant, high code quality and extensive command framework, Inspired by High Quality Command Frameworks like [Lamp](https://www.spigotmc.org/threads/lamp-a-highly-flexible-extremely-powerful-and-customizable-commands-framework.544055/) and [mCommands](https://www.spigotmc.org/threads/mcommands.600957/) to ***try*** fix their (current) issues
 
 *Okay, cool, I have heard this a million times, you probably use recursion, have terrible performance, readability, understandability and/or code quality, slow support, non-extensive and/or have a massive jar size*
@@ -112,7 +112,7 @@ Speaking of small, here is the Size.
 Here is why **FlameWare** tops in File size:
 
 As of now, here are the size of the modules with ***no minimization***: (these are the last checked size, could be higher or even lower)
-- Spigot & Common Combined: 39.1kb
+- Spigot & Common Combined: 31kb~
 
 FlameWare is light despite its features!
 ### How is it really done?
