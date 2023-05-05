@@ -1,5 +1,5 @@
 # FlameWare
-Performant, high code quality and extensive command framework, Inspired by High Quality Command Frameworks like [Lamp](https://www.spigotmc.org/threads/lamp-a-highly-flexible-extremely-powerful-and-customizable-commands-framework.544055/) and [mCommands](https://www.spigotmc.org/threads/mcommands.600957/) to ***try*** fix their (current) issues
+Performant, high code quality and extensive command framework, Inspired by High Quality Command Frameworks such as [Lamp](https://www.spigotmc.org/threads/lamp-a-highly-flexible-extremely-powerful-and-customizable-commands-framework.544055/) to ***try*** fix their (current) issues
 
 *Okay, cool, I have heard this a million times, you probably use recursion, have terrible performance, readability, understandability and/or code quality, slow support, non-extensive and/or have a massive jar size*
 
@@ -14,11 +14,9 @@ That is right, you will find **no recursion whatsoever**, FlameWare is recursion
 And we really want to.
 
 ### Decent Internal Readability
-Actually, that is certainly wrong, and it's quite the *opposite*
+*but mister FlameyosFlow, how can performance make readability better? that's hard*
 
-*but mister FlameyosFlow, how can performance make readability better? that's nearly impossible*
-
-Your answer: Well I defeated **nearly impossible**!
+Your answer: Well I defeated **hard**!
 
 FlameWare tries to take advantage of Java and other stuff to not only improve performance,
 but to even improve readability in some cases!
@@ -29,6 +27,8 @@ FlameWare is very based on caches and map computing, in some cases it lowers the
 FlameWare tries to achieve thread safety **without synchronization**, we do not use normal HashMaps or synchronized maps/hashtables,
 We use ConcurrentMaps to try achieve the best performance and best thread-safety without making the code look like it was made by a premature optimizer.
 
+I guess that also uses synchronization, but smart synchronization
+
 Wow, awesome, right? anyways let's go to the next reason
 
 ### Constant searching instead of Linear searching.
@@ -37,11 +37,23 @@ FlameWare is cache-based AND hash-based, especially for argument parsing and com
 FlameWare uses a lot of thread-safe operations, and FlameWare utilizes the smartest
 features to improve functionality, extensibility and performance.
 
+### Smart MethodHandle Usage
+Didn't I just tell you how much I *try* utilizing the smartest features to improve performance and so on? that doesn't break here.
+
+The current method handling can only happen for public command methods to significantly improve performance.
+Here is the current execution:
+```java
+MethodHandles.publicLookup().unreflect(Method).invokeExact(Object, ...);
+```
+
+.publicLookup() improves performance by doing optimizations for public methods, significantly improving performance more than the traditional reflection actually.
+
+.invokeExact(...) invokes the method with a lower amount of checks than invoke(...), since there's no need for extra checks (since the parameter are parsed from the Method object anyways), it improves performance using invokeExact.
+
 ## Development time and Readability
 Here is why **FlameWare** tops in Readability and Development Time:
 
-FlameWare aims to drastically decrease development time,
-When it comes to development time, FlameWare does more work internally so you do less work externally!
+### Less annotations to work with
 
 Here is what some command frameworks make you do:
 ```java
@@ -90,12 +102,26 @@ public class MyCommand {
 
 18 lines to 14 lines, and thats just a sample, imagine real code, man.
 
+This approach leads to a slightly smaller jar file, easier maintanence *and* better development time
+
 ## Extensibility and Customizability
 **Lamp *does* top FlameWare in extensibility** as of now since it is a **much earlier project**, but here is why **FlameWare** is so good in Extensibility and Customizability:
 
-FlameWare is more of the "I will let you customize and extend features" than "I will have complete features" kind of framework, which is also why it is so small
+### Hash implementations for Everything
+Not only does using HashMaps and ConcurrentHashMaps instead of a bunch of switch/if statements improve performance (especially in huge maps) but they even allow for much easier extensibility!
 
-We plan to have you find a lot of Extensibility in FlameWare, even in the first versions!
+Imagine this for extensibility:
+```java
+if (...) {
+} else if (...) {
+} else if (...) {
+) else if (...) {
+} else if (...) {
+} // and so on
+```
+
+That would be slower and *MUCH* harder to add extensive features to it.
+Just 1 or 2 if statements with a map can be so much faster and more extensive too
 
 ## Support
 Here is why **FlameWare** tops in support:
@@ -129,6 +155,6 @@ Other reasons may be:
 - and more!
 
 # Installation
-Fine, you convinced me, how do I try this?
+Fine, you convinced me, this is just too much to resist, how do I try this?
 
 #### REPO SOON!
