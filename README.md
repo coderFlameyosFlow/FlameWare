@@ -144,7 +144,7 @@ Speaking of small, here is the Size.
 Here is why **FlameWare** tops in File size:
 
 As of now, here are the size of the modules with ***no minimization***: (these are the last checked size, could be higher or even lower)
-- Spigot & Common Combined: 41kb~
+- Spigot & Common Combined: 49kb~
 
 FlameWare is light despite its features!
 ### How is it really done?
