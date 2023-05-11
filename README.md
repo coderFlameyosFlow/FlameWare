@@ -9,6 +9,12 @@ Here is what makes you choose **FlameWare** over **others**:
 
 ## Performance
 Here is why **FlameWare** tops in performance:
+### Java 17
+FlameWare is Java 17, to improve API safety, security, to promote new versions, and of course, performance.
+
+it also helps developers suffer less by using dated features, such as records, dated expressions, sealed interfaces/classes, and newer features in java classes.
+
+Don't try to change my opinion, FlameWare will only be other versions if necessary
 ### No recursion, Absolutely none.
 That is right, you will find **no recursion whatsoever**, FlameWare is recursion-free,
 And we really want to.
