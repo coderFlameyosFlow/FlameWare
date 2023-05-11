@@ -1,4 +1,4 @@
-# FlameWare
+# FlameWare - IN PROGRESS
 Performant, high code quality and extensive command framework, Inspired by High Quality Command Frameworks such as [Lamp](https://www.spigotmc.org/threads/lamp-a-highly-flexible-extremely-powerful-and-customizable-commands-framework.544055/) to ***try*** fix their (current) issues
 
 *Okay, cool, I have heard this a million times, you probably use recursion, have terrible performance, readability, understandability and/or code quality, slow support, non-extensive and/or have a massive jar size*
