@@ -29,14 +29,6 @@ but to even improve readability in some cases!
 
 FlameWare is very based on caches and map computing, in some cases it lowers the amount of lines and makes it more readable or understandable, making it better maintainable for even better code in the future!
 
-### Complete thread-safety.
-FlameWare tries to achieve thread safety **without synchronization**, we do not use normal HashMaps or synchronized maps/hashtables,
-We use ConcurrentMaps to try achieve the best performance and best thread-safety without making the code look like it was made by a premature optimizer.
-
-I guess that also uses synchronization, but smart synchronization
-
-Wow, awesome, right? anyways let's go to the next reason
-
 ### Constant searching instead of Linear searching.
 FlameWare is cache-based AND hash-based, especially for argument parsing and command registration
 
@@ -164,3 +156,5 @@ Other reasons may be:
 Fine, you convinced me, this is just too much to resist, how do I try this?
 
 #### REPO SOON!
+
+*Since you kept reading until here, there is a very big surprise at 2.0.0, it will send your heads flying :)*
