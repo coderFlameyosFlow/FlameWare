@@ -121,6 +121,11 @@ if (...) {
 That would be slower and *MUCH* harder to add extensive features to it.
 Just 1 or 2 if statements with a map can be so much faster and more extensive too
 
+### Suggestion and Parsing API
+There is an API for suggestions *and* parsing, thanks to the hash implementations we talked about above.
+
+this is at 1.0.0, that was added at the very first version, imagine how many features it is right now (I'm looking at the future)
+
 ## Support
 Here is why **FlameWare** tops in support:
 
