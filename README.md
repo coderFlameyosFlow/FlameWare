@@ -138,7 +138,7 @@ Speaking of small, here is the Size.
 Here is why **FlameWare** tops in File size:
 
 As of now, here are the size of the modules with ***no minimization***: (these are the last checked size, could be higher or even lower)
-- Spigot & Common Combined: 49kb~
+- Spigot & Common Combined: 50kb~
 
 FlameWare is light despite its features!
 ### How is it really done?
@@ -150,7 +150,7 @@ First of all, there are no implementations, everything is compiled only, here ar
 Other reasons may be:
 - Because of the low amoumt of classes, interfaces, enums and annotations combined
 - Because FlameWare removes all of the meta data using ShadowJar that usually comes normally in a JAR file
-- Because FlameWare uses as much Java as possible, since the JDK has all the java classes, meaning, using java classes will be better for file size
+- Because FlameWare uses as much Java as possible, the JDK has all the java classes, meaning, using java classes will be better for file size
 - Because FlameWare attracts the eye of people looking for extensibility, not complete features, leaving more space for your projects!
 - and more!
 
