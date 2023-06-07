@@ -1,7 +1,7 @@
 # FlameWare - IN PROGRESS
 Performant, high code quality and extensive command framework, Inspired by High Quality Command Frameworks such as [Lamp](https://www.spigotmc.org/threads/lamp-a-highly-flexible-extremely-powerful-and-customizable-commands-framework.544055/) to ***try*** fix their (current) issues
 
-*Okay, cool, I have heard this a million times, you probably use recursion, have terrible performance, readability, understandability and/or code quality, slow support, non-extensive and/or have a massive jar size*
+*Okay, cool, I have heard this a million times, you probably have terrible performance, readability, understandability and/or code quality, slow support, non-extensive and/or have a massive jar size*
 
 Look, don't assume, other command frameworks are obviously great and try their *best*, although:
 
@@ -15,9 +15,6 @@ FlameWare is Java 17, to improve API safety, security, to promote new versions, 
 it also helps developers suffer less by using dated features, such as records, dated expressions, sealed interfaces/classes, and newer features in java classes.
 
 Don't try to change my opinion, FlameWare will only be other versions if necessary
-### No recursion, Absolutely none.
-That is right, you will find **no recursion whatsoever**, FlameWare is recursion-free,
-And we really want to.
 
 ### Decent Internal Readability
 *but mister FlameyosFlow, how can performance make readability better? that's hard*
