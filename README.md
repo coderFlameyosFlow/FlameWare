@@ -9,12 +9,15 @@ Here is what makes you choose **FlameWare** over **others**:
 
 ## Performance
 Here is why **FlameWare** tops in performance:
-### Java 17
-FlameWare is Java 17, to improve API safety, security, to promote new versions, and of course, performance.
+### Java 11
+FlameWare is Java 11, to improve API safety, security, to promote new versions, and of course, performance.
 
-it also helps developers suffer less by using dated features, such as records, dated expressions, sealed interfaces/classes, and newer features in java classes.
+it also helps developers suffer less by using more dated features and having much more performant features than Java 8
 
-Don't try to change my opinion, FlameWare will only be other versions if necessary
+Java 11 is also the perfect Java version because it runs on most Spigot/PaperMC versions (1.11.2/1.12.2+)
+
+Read on (Microsoft performance improvements)[https://learn.microsoft.com/en-us/java/openjdk/reasons-to-move-to-java-11] from Java 8 to Java 11
+Read on (de-caff benchmarks betwee 8 vs 11)[https://caff.de/posts/java-11-vs-8-performance/]
 
 ### Decent Internal Readability
 *but mister FlameyosFlow, how can performance make readability better? that's hard*
