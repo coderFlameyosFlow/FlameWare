@@ -17,6 +17,7 @@ it also helps developers suffer less by using more dated features and having muc
 Java 11 is also the perfect Java version because it runs on most Spigot/PaperMC versions (1.11.2/1.12.2+)
 
 Read on [Microsoft performance improvements](https://learn.microsoft.com/en-us/java/openjdk/reasons-to-move-to-java-11) from Java 8 to Java 11
+
 Read on [de-caff benchmarks betwee 8 vs 11](https://caff.de/posts/java-11-vs-8-performance/)
 
 ### Decent Internal Readability
