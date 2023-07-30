@@ -21,6 +21,7 @@ Read on [Microsoft performance improvements](https://learn.microsoft.com/en-us/j
 Read on [de-caff benchmarks between 8 vs 11](https://caff.de/posts/java-11-vs-8-performance/)
 
 Features you could've been missing when using Java 8:
+
 [Baeldung 9](https://www.baeldung.com/new-java-9)
 
 [Baeldung 10](https://www.baeldung.com/java-10-overview)
