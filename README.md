@@ -18,7 +18,16 @@ Java 11 is also the perfect Java version because it runs on most Spigot/PaperMC 
 
 Read on [Microsoft performance improvements](https://learn.microsoft.com/en-us/java/openjdk/reasons-to-move-to-java-11) from Java 8 to Java 11
 
-Read on [de-caff benchmarks betwee 8 vs 11](https://caff.de/posts/java-11-vs-8-performance/)
+Read on [de-caff benchmarks between 8 vs 11](https://caff.de/posts/java-11-vs-8-performance/)
+
+Features you could've been missing when using Java 8:
+[Baeldung 9](https://www.baeldung.com/new-java-9)
+
+[Baeldung 10](https://www.baeldung.com/java-10-overview)
+
+[Baeldung 10 (Performance)](https://www.baeldung.com/java-10-performance-improvements)
+
+[Baeldung 11](https://www.baeldung.com/java-11-new-features)
 
 ### Decent Internal Readability
 *but mister FlameyosFlow, how can performance make readability better? that's hard*
